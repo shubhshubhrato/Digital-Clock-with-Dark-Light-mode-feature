@@ -1,0 +1,119 @@
+body {
+    background-color: white;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+h4 {
+    position: relative;
+}
+
+#hour {
+    position: relative;
+    border: 2px solid black;
+    margin: 5px 5px;
+    padding: 40px;
+    border-radius: 10%;
+    background-color: rgb(238, 82, 25);
+    font-size: 30px;
+    font-family: 'Exo 2', sans-serif;
+}
+
+#hour:hover {
+    background-color: rgb(125, 120, 120);
+    border: 0.5px solid white;
+}
+
+#minute {
+    border: 2px solid black;
+    margin: 5px 5px;
+    padding: 40px;
+    border-radius: 10%;
+    background-color: rgb(238, 82, 25);
+    font-size: 30px;
+    font-family: 'Exo 2',
+    sans-serif;
+}
+
+#minute:hover {
+    background-color: rgb(125, 120, 120);
+    border: 0.5px solid white;
+}
+
+#second {
+    border: 2px solid black;
+    margin: 5px 5px;
+    padding: 40px;
+    border-radius: 10%;
+    background-color: rgb(238, 82, 25);
+    font-size: 30px;
+    font-family: 'Exo 2',
+    sans-serif;
+}
+
+#second:hover {
+    background-color: rgb(125, 120, 120);
+    border: 0.5px solid white;
+}
+
+#session {
+    border: 2px solid black;
+    margin: 5px 5px;
+    padding: 20px;
+    border-radius: 10%;
+    background-color: rgb(113, 117, 123);
+    font-size: 30px;
+    font-family: 'Exo 2',
+    sans-serif;
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 40px;
+}
+
+button {
+    padding: 20px;
+    cursor: pointer;
+    background-color: white;
+    border-radius: 10px;
+    font-family: 'Press Start 2P',
+    cursive;
+    font-size: 10px;
+}
+
+button:hover {
+    background-color: rgb(10, 9, 9);
+    color: white;
+}
+
+.dark-mode {
+    background-color: black;
+    text-align: center;
+    font-family: 'Chakra Petch',
+    sans-serif;
+    color: white;
+}
+
+.light-mode {
+    background-color: white;
+    text-align: center;
+    font-family: 'Chakra Petch',
+    sans-serif;
+    color: color;
+}
+
+#darklight {
+    margin: 50px 50px;
+    padding: 10px 20px 10px 20px;
+    text-align: center;
+    font-family: 'Chakra Petch',
+    sans-serif;
+}
